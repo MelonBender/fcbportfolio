@@ -1,0 +1,84 @@
+/*Cascading Style Sheet*/
+
+/*
+	Syntax for CSS Styling
+
+	Selector {
+		property:  value;
+	}
+*/
+
+/*
+	Universal Selector(*) - Selects all the HTML elements
+*/
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+/*
+	tag/element selector(<tagName>) - Selects a HTML elemt using tag name
+*/
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+/*
+	ID selector (#idName) - use the id attribute to select an element.
+*/
+
+#landing {
+	/*vh => viewport height is relative to viewing screen*/
+	height: 80vh;
+	/* center the content vertically using flexbox */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+	Class Selector (.className) - use to select all elements that belongs to a particular class attribute
+*/
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2
+{
+	color: #007bff;
+
+}
+
+.tools {
+	color: white;
+	height: 200px;
+	width: 75%;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	padding: 25px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
